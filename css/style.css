@@ -461,6 +461,35 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 /* ==================================================
+  Goals Styling
+=================================================== */
+.goal {
+  height: 200px;
+  display: block;
+  top: -50px;
+  /*position: absolute;*/
+}
+
+.goal .main-text {
+  display: inline-block;
+  height: 100px;
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  font-size: larger;
+  text-align: center;
+  position: relative;
+  top: 35%;
+  bot: 85%;
+}
+
+.goal .sub-text {
+  display: inline-block;
+  height: 100px;
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  font-size: small;
+}
+
+
+/* ==================================================
   Stats Styling
 ================================================== */
 .stats-row {
