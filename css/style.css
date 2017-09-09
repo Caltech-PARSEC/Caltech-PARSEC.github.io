@@ -666,7 +666,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: all 0.3s ease;
 }
 
-.portfolio-grid .row > div .card .picture-text {
+.portfolio-grid .row > div .card .picture-text-overlay {
   position: absolute;
   display: table-cell;
   vertical-align: middle;
@@ -682,8 +682,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
   color: #fff;
-  font-size: 30px;
-  z-index: 1000;
+  z-index: 100;
 }
 
 .portfolio-grid .row > div .card .portfolio-over > div {
@@ -694,7 +693,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   transform: translateY(-50%);
 }
 
-.portfolio-grid .row > div .card .picture-text > div {
+.portfolio-grid .row > div .card .picture-text-overlay > div {
   position: relative;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -710,6 +709,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .portfolio-grid .row > div .card .portfolio-over .card-text {
   color: #fff;
   opacity: .75;
+  font-size: medium;
   padding: 0 45px;
 }
 
@@ -718,8 +718,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   visibility: visible;
 }
 
-.portfolio-grid .row > div .card:hover .picture-text {
-  opacity: .25;
+.portfolio-grid .row > div .card:hover .picture-text-overlay {
+  opacity: .2;
   visibility: visible;
 }
 
