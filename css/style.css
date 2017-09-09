@@ -666,7 +666,35 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: all 0.3s ease;
 }
 
+.portfolio-grid .row > div .card .picture-text {
+  position: absolute;
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  visibility: visible;
+  opacity: 1;
+  top: 0;
+  left: 0;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  color: #fff;
+  font-size: 30px;
+  z-index: 1000;
+}
+
 .portfolio-grid .row > div .card .portfolio-over > div {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.portfolio-grid .row > div .card .picture-text > div {
   position: relative;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -687,6 +715,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .portfolio-grid .row > div .card:hover .portfolio-over {
   opacity: 1;
+  visibility: visible;
+}
+
+.portfolio-grid .row > div .card:hover .picture-text {
+  opacity: .25;
   visibility: visible;
 }
 
