@@ -45,7 +45,7 @@ a {
   Elements
   ================================================== */
 .btn {
-  background-color: #199EB8;
+  background-color: #FF6A13;
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-weight: 800;
   color: #fff;
@@ -54,7 +54,7 @@ a {
 }
 
 .btn:hover {
-  background-color: #E04F00;
+  background-color: #00A8E2;
   color: #fff;
 }
 
@@ -69,7 +69,7 @@ a {
 
 .btn-ghost:hover {
   background-color: #fff;
-  color: #199EB8;
+  color: #00A8E2;
 }
 
 section {
@@ -97,7 +97,7 @@ a:hover {
   width: 42px;
   height: 42px;
   border-radius: 50%;
-  background: #199EB8;
+  background: #00A8E2;
   color: #fff;
   text-align: center;
   font-size: 24px;
@@ -162,7 +162,7 @@ a:hover {
   Header Styling
 ================================================== */
 #header {
-  background: #199EB8;
+  background: #00A8E2;
   height: 70px;
 }
 
@@ -224,6 +224,7 @@ a:hover {
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
+
 /* Nav Menu Essentials */
 .nav-menu, .nav-menu * {
   margin: 0;
@@ -303,7 +304,7 @@ a:hover {
   outline: none;
 }
 
-.nav-menu a:hover, .nav-menu li:hover > a, .nav-menu .menu-active > a {
+.nav-menu a:hover, .nav-menu li:hover > a {
   color: rgba(255, 255, 255, 0.75);
 }
 
@@ -323,7 +324,7 @@ a:hover {
 }
 
 .nav-menu ul li:hover {
-  background: #199EB8;
+  background: #00A8E2;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
@@ -429,11 +430,11 @@ a:hover {
 }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
-  color: #199EB8;
+  color: #00A8E2;
 }
 
 #mobile-nav ul .menu-item-active {
-  color: #199EB8;
+  color: #00A8E2;
 }
 
 #mobile-body-overly {
@@ -503,7 +504,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-family: "Raleway", Helvetica, Arial, sans-serif;
   font-weight: 500;
   color: #666;
-  border: 6px solid #199EB8;
+  border: 6px solid #00A8E2;
   border-radius: 50%;
   padding: 55px 25px 0 25px;
   position: relative;
@@ -547,12 +548,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* ==================================================
   Features Styling
   ================================================== */
+
 .features {
   padding-bottom: 45px;
 }
 
 .features h2 {
-  color: #199EB8;
+  color: #00A8E2;
 }
 
 .feature-col {
@@ -573,7 +575,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   width: 70px;
   height: 70px;
   margin-bottom: 15px;
-  background: #199EB8;
+  background: #FF6A13;
   color: #fff;
   font-size: 24px;
   text-align: center;
@@ -583,7 +585,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .feature-col h3 {
-  color: #199EB8;
+  color: #00A8E2;
 }
 
 .feature-col p {
@@ -596,7 +598,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   Call-to-action Styling
   ================================================== */
 .cta {
-  background-color: #199EB8;
+  background-color: #00A8E2;
   padding: 25px 0;
 }
 
@@ -628,7 +630,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .portfolio h2 {
-  color: #199EB8;
+  color: #00A8E2;
   margin-bottom: 25px;
 }
 
@@ -727,7 +729,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   Team Styling
   ================================================== */
 .team h2 {
-  color: #199EB8;
+  color: #00A8E2;
 }
 
 .team .col-sm-3 {
@@ -775,7 +777,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .team .card:hover .card-title-wrap {
-  background-color: #199EB8;
+  background-color: #00A8E2;
 }
 
 .team .card:hover .card-title-wrap .card-title, .team .card:hover .card-title-wrap .card-text {
@@ -832,12 +834,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #contact h2 {
   font-family: "Raleway", Helvetica, Arial, sans-serif;
-  color: #199EB8;
+  color: #00A8E2;
 }
 
 #contact .info i {
   font-size: 32px;
-  color: #199EB8;
+  color: #00A8E2;
   float: left;
 }
 
@@ -847,8 +849,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form #sendmessage {
-  color: #199EB8;
-  border: 1px solid #199EB8;
+  color: #00A8E2;
+  border: 1px solid #00A8E2;
   display: none;
   text-align: center;
   padding: 15px;
@@ -885,7 +887,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form button[type="submit"] {
-  background: #199EB8;
+  background: #00A8E2;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -950,7 +952,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .site-footer .bottom .list-inline a:hover {
-  color: #199EB8;
+  color: #00A8E2;
 }
 
 .site-footer .credits {
@@ -958,7 +960,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .site-footer .credits a {
-  color: #199EB8;
+  color: #00A8E2;
 }
 
 /* ==================================================
