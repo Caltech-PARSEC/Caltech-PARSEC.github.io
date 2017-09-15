@@ -97,7 +97,7 @@ a:hover {
   width: 42px;
   height: 42px;
   border-radius: 50%;
-  background: #00A8E2;
+  background: #FF6A13;
   color: #fff;
   text-align: center;
   font-size: 24px;
@@ -162,8 +162,9 @@ a:hover {
   Header Styling
 ================================================== */
 #header {
-  background: #00A8E2;
+  background: #FF6A13;
   height: 70px;
+  z-index: 20;
 }
 
 #header #logo {
@@ -684,7 +685,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
   color: #fff;
-  z-index: 100;
+  z-index: 10;
 }
 
 .portfolio-grid .row > div .card .portfolio-over > div {
@@ -887,7 +888,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form button[type="submit"] {
-  background: #00A8E2;
+  background: #FF6A13;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -897,7 +898,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form button[type="submit"]:hover {
-  background: #23c2e1;
+  background: #ff8e4d; /* A lighter orange */
 }
 
 /* ==================================================
