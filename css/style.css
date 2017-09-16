@@ -569,7 +569,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .feature-col > div > div:last-child {
-  padding-left: 20px;
+  padding-left: 0px;
 }
 
 .feature-col .feature-icon {
@@ -712,8 +712,25 @@ body.mobile-nav-active #mobile-nav-toggle {
 .portfolio-grid .row > div .card .portfolio-over .card-text {
   color: #fff;
   opacity: .75;
-  font-size: medium;
   padding: 0 45px;
+}
+
+@media (max-width: 691px) {
+  .portfolio-grid .row > div .card .portfolio-over .card-text {
+    font-size: small;
+  }
+}
+
+@media (max-width: 475px) {
+  .portfolio-grid .row > div .card .portfolio-over .card-text {
+    font-size: x-small;
+  }
+}
+
+@media (min-width: 692px) {
+  .portfolio-grid .row > div .card .portfolio-over .card-text {
+    font-size: medium;
+  }
 }
 
 .portfolio-grid .row > div .card:hover .portfolio-over {
