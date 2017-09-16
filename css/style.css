@@ -115,6 +115,7 @@ a:hover {
   display: table;
   position: relative;
   background-image: url(../img/Milikan.jpg);
+  background-position: center;
   background-size: cover;
   padding: 150px 0;
   color: #fff;
