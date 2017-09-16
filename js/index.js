@@ -5,6 +5,7 @@ function sendEmail() {
     var subject = encodeURIComponent(document.getElementById("subject").value);
     var message = document.getElementById("message").value;
     var body = encodeURIComponent(message + "\n\nRegards, \n" + name + "\nEmail: " + email);
-    window.open("mailto:" + targetEmail + "?subject=" + subject + "&body=" + body);
+    window.location.href = "mailto:" + targetEmail + "?subject=" + subject + "&body=" + body;
+    // emailWindow.close();
     return false;
 }
