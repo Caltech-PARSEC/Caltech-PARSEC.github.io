@@ -162,6 +162,11 @@ a:hover {
 /* ==================================================
   Header Styling
 ================================================== */
+.bold-orange {
+  color: #FF6A13;
+  font-weight: bold;
+}
+
 #header {
   background: #FF6A13;
   height: 70px;
